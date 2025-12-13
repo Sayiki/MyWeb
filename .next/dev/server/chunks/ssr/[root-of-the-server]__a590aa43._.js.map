@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/arzaq/Documents/GitHub/MyWeb/pages/_app.jsx"],"sourcesContent":["import { useEffect } from \"react\";\r\nimport \"../styles/globals.css\";\r\nimport { initLightboxJS } from \"lightbox.js-react\";\r\n\r\nfunction MyApp({ Component, pageProps }) {\r\n  useEffect(() => {\r\n    const licenseKey = process.env.NEXT_PUBLIC_LIGHTBOX_LICENSE_KEY;\r\n    const planType = process.env.NEXT_PUBLIC_LIGHTBOX_LICENSE_PLAN || \"individual\";\r\n    if (licenseKey) {\r\n      initLightboxJS(licenseKey, planType);\r\n    }\r\n  }, []);\r\n\r\n  return <Component {...pageProps} />;\r\n}\r\n\r\nexport default MyApp;"],"names":[],"mappings":";;;;;AAAA;AAEA;;;;;;;;;AAEA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,IAAA,gHAAS,EAAC;QACR,MAAM,aAAa,QAAQ,GAAG,CAAC,gCAAgC;QAC/D,MAAM,WAAW,QAAQ,GAAG,CAAC,iCAAiC,IAAI;QAClE,IAAI,YAAY;YACd,IAAA,gKAAc,EAAC,YAAY;QAC7B;IACF,GAAG,EAAE;IAEL,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC;uCAEe"}}]
+}

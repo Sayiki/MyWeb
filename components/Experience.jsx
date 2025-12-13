@@ -2,16 +2,16 @@
 export default function Experience() {
   const experiences = [
     {
-      year: "2024 - Present",
-      title: "Software Engineer",
-      company: "Freelance",
-      description: "Delivering full-stack solutions with React, Node.js, and cloud-native services."
+      year: "Feb - June 2024",
+      title: "Backend Developer (Internship)",
+      company: "HUMIC Research Center",
+      description: "Contributed to developing the backend system of Symptosense (IoT-based patient monitoring app) using Laravel, improving system reliability for real-time data handling."
     },
     {
-      year: "2022 - 2024",
-      title: "Product Engineering Intern",
-      company: "Startup Inc.",
-      description: "Supported feature delivery, wrote API integrations, and tightened QA feedback loops."
+      year: "1 July - 31 August 2024",
+      title: "Backend Developer (Internship)",
+      company: "Badan Perusahaan Otorita Danau Toba",
+      description: "Contributed to creating a website for managing data on tourist attractions at BPODT Caldera Resort using Codeigniter framework."
     }
   ];
 

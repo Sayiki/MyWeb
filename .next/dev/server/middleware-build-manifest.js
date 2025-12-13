@@ -3,25 +3,29 @@ globalThis.__BUILD_MANIFEST = {
     "/": [
       "static/chunks/[root-of-the-server]__bbc316c7._.js",
       "static/chunks/425ab_next_dist_compiled_ef1e88bf._.js",
+      "static/chunks/425ab_next_dist_shared_lib_b241475c._.js",
+      "static/chunks/425ab_next_dist_client_c8fcce78._.js",
+      "static/chunks/425ab_next_dist_3242fecc._.js",
+      "static/chunks/425ab_next_head_e0d8d144.js",
+      "static/chunks/425ab_react-dom_e70b7352._.js",
+      "static/chunks/425ab_c20e28fa._.js",
+      "static/chunks/Documents_GitHub_MyWeb_pages_index_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages_index_e555bbac._.js"
+    ],
+    "/_app": [
+      "static/chunks/425ab_next_dist_compiled_a741f26e._.js",
       "static/chunks/425ab_next_dist_shared_lib_1eebf174._.js",
       "static/chunks/425ab_next_dist_client_c8fcce78._.js",
       "static/chunks/425ab_next_dist_3242fecc._.js",
       "static/chunks/425ab_react-dom_e70b7352._.js",
-      "static/chunks/425ab_c20e28fa._.js",
-      "static/chunks/Documents_GitHub_MyWeb_pages_index_2da965e7._.js",
-      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages_index_90e01e37._.js"
-    ],
-    "/_app": [
-      "static/chunks/425ab_next_dist_compiled_ef1e88bf._.js",
-      "static/chunks/425ab_next_dist_shared_lib_1eebf174._.js",
-      "static/chunks/425ab_next_dist_client_c8fcce78._.js",
-      "static/chunks/425ab_next_dist_5f501a9d._.js",
-      "static/chunks/425ab_react-dom_e70b7352._.js",
-      "static/chunks/425ab_945e6832._.js",
+      "static/chunks/968c9_framer-motion_dist_es_1d894e71._.js",
+      "static/chunks/425ab_lightbox_js-react_dist_d9fbb983._.js",
+      "static/chunks/425ab_axios_lib_b2ccc042._.js",
+      "static/chunks/425ab_8455fc55._.js",
       "static/chunks/[root-of-the-server]__f52d9f23._.js",
       "static/chunks/Documents_GitHub_MyWeb_styles_globals_72558eb2.css",
       "static/chunks/Documents_GitHub_MyWeb_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages__app_84e5bcf8._.js"
+      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages__app_5c96ca95._.js"
     ]
   },
   "devFiles": [],

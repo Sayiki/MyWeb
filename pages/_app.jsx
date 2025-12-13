@@ -1,12 +1,17 @@
-// pages/_app.jsx
+import { useEffect } from "react";
+import "../styles/globals.css";
+import { initLightboxJS } from "lightbox.js-react";
 
-// 1. Load the global styles (assuming you created styles/globals.css)
-import '../styles/globals.css'; 
-
-// 2. Define the application wrapper component
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  useEffect(() => {
+    const licenseKey = process.env.NEXT_PUBLIC_LIGHTBOX_LICENSE_KEY;
+    const planType = process.env.NEXT_PUBLIC_LIGHTBOX_LICENSE_PLAN || "individual";
+    if (licenseKey) {
+      initLightboxJS(licenseKey, planType);
+    }
+  }, []);
+
+  return <Component {...pageProps} />;
 }
 
-// 3. IMPORTANT: This MUST be the default export in this file.
 export default MyApp;

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/arzaq/Documents/GitHub/MyWeb/pages/_document.jsx"],"sourcesContent":["import { Html, Head, Main, NextScript } from \"next/document\";\r\n\r\nexport default function Document() {\r\n  return (\r\n    <Html lang=\"en\">\r\n      <Head>\r\n        <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"any\" />\r\n        <link rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n      </Head>\r\n      <body>\r\n        <Main />\r\n        <NextScript />\r\n      </body>\r\n    </Html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC,iKAAI;QAAC,MAAK;;0BACT,qKAAC,iKAAI;;kCACH,qKAAC;wBAAK,KAAI;wBAAO,MAAK;wBAAe,OAAM;;;;;;kCAC3C,qKAAC;wBAAK,KAAI;wBAAgB,MAAK;;;;;;;;;;;;0BAEjC,qKAAC;;kCACC,qKAAC,iKAAI;;;;;kCACL,qKAAC,uKAAU;;;;;;;;;;;;;;;;;AAInB"}}]
+}

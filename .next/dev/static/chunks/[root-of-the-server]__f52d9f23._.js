@@ -465,25 +465,39 @@ function triggerUpdate(msg) {
 "[project]/Documents/GitHub/MyWeb/pages/_app.jsx [client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// pages/_app.jsx
-// 1. Load the global styles (assuming you created styles/globals.css)
 __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$lightbox$2e$js$2d$react$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/lightbox.js-react/dist/index.mjs [client] (ecmascript) <locals>");
+;
+var _s = __turbopack_context__.k.signature();
 ;
 ;
-// 2. Define the application wrapper component
+;
 function MyApp({ Component, pageProps }) {
+    _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "MyApp.useEffect": ()=>{
+            const licenseKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_LIGHTBOX_LICENSE_KEY;
+            const planType = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_LIGHTBOX_LICENSE_PLAN || "individual";
+            if (licenseKey) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$lightbox$2e$js$2d$react$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["initLightboxJS"])(licenseKey, planType);
+            }
+        }
+    }["MyApp.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Component, {
         ...pageProps
     }, void 0, false, {
         fileName: "[project]/Documents/GitHub/MyWeb/pages/_app.jsx",
-        lineNumber: 8,
+        lineNumber: 14,
         columnNumber: 10
     }, this);
 }
+_s(MyApp, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = MyApp;
 const __TURBOPACK__default__export__ = MyApp;
 var _c;
