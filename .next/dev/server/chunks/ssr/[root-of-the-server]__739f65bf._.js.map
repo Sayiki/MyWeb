@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/arzaq/Documents/GitHub/MyWeb/pages/_app.jsx"],"sourcesContent":["// pages/_app.jsx\r\n\r\n// 1. Load the global styles (assuming you created styles/globals.css)\r\nimport '../styles/globals.css'; \r\n\r\n// 2. Define the application wrapper component\r\nfunction MyApp({ Component, pageProps }) {\r\n  return <Component {...pageProps} />;\r\n}\r\n\r\n// 3. IMPORTANT: This MUST be the default export in this file.\r\nexport default MyApp;"],"names":[],"mappings":"AAAA,iBAAiB;AAEjB,sEAAsE;;;;;;;;AAGtE,8CAA8C;AAC9C,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC;uCAGe"}}]
+}

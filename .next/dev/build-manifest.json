@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/": [
+      "static/chunks/[root-of-the-server]__bbc316c7._.js",
+      "static/chunks/425ab_next_dist_compiled_ef1e88bf._.js",
+      "static/chunks/425ab_next_dist_shared_lib_1eebf174._.js",
+      "static/chunks/425ab_next_dist_client_c8fcce78._.js",
+      "static/chunks/425ab_next_dist_3242fecc._.js",
+      "static/chunks/425ab_react-dom_e70b7352._.js",
+      "static/chunks/425ab_c20e28fa._.js",
+      "static/chunks/Documents_GitHub_MyWeb_pages_index_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages_index_90e01e37._.js"
+    ],
+    "/_app": [
+      "static/chunks/425ab_next_dist_compiled_ef1e88bf._.js",
+      "static/chunks/425ab_next_dist_shared_lib_1eebf174._.js",
+      "static/chunks/425ab_next_dist_client_c8fcce78._.js",
+      "static/chunks/425ab_next_dist_5f501a9d._.js",
+      "static/chunks/425ab_react-dom_e70b7352._.js",
+      "static/chunks/425ab_945e6832._.js",
+      "static/chunks/[root-of-the-server]__f52d9f23._.js",
+      "static/chunks/Documents_GitHub_MyWeb_styles_globals_72558eb2.css",
+      "static/chunks/Documents_GitHub_MyWeb_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_MyWeb_pages__app_84e5bcf8._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}

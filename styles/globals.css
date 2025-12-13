@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+	color-scheme: light;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #EDEEF3;
+	color: #1f2933;
+	font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
