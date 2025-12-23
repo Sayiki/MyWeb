@@ -21,11 +21,17 @@ export default function Blog() {
     {
       title: "Bootcamp Data Analyst - SmartPath",
       date: "Agustus 2025",
-      image: "/pictures/HKI2.png"
+      image: "/pictures/bootcampDA.jpeg"
     },
   ];
 
+  const ITEMS_PER_SLIDE = 3;
+  const totalSlides = Math.ceil(posts.length / ITEMS_PER_SLIDE);
+  const [currentSlide, setCurrentSlide] = useState(0);
   const [activeIndex, setActiveIndex] = useState(null);
+
+  const startIndex = currentSlide * ITEMS_PER_SLIDE;
+  const visiblePosts = posts.slice(startIndex, startIndex + ITEMS_PER_SLIDE);
 
   // Lightbox state
   const [zoom, setZoom] = useState(1);
@@ -181,7 +187,7 @@ export default function Blog() {
 
   return (
     <section className="relative overflow-hidden px-6 pb-24 pt-20">
-      <div className="relative mx-auto w-full max-w-4xl space-y-10 text-slate-800">
+      <div className="relative mx-auto w-full max-w-6xl space-y-12 text-slate-800">
         <header className="space-y-3 text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.4em] text-slate-500">
             Certified Learning
@@ -193,46 +199,75 @@ export default function Blog() {
             Credentials that reinforce my commitment to modern web development and backend expertise.
           </p>
         </header>
-        <ul className="grid gap-6 md:grid-cols-2">
-          {posts.map((post, index) => (
-            <li
-              key={index}
-              className="group cursor-pointer rounded-3xl border border-[#E4E5E9] bg-[#E4E5E9] p-6 transition-transform duration-150 hover:-translate-y-1"
-            >
+        <div className="relative">
+          <div className="grid auto-rows-[360px] gap-8 sm:grid-cols-2 xl:grid-cols-3">
+            {visiblePosts.map((post, index) => {
+              const actualIndex = startIndex + index;
+              return (
+                <button
+                  key={actualIndex}
+                  type="button"
+                  onClick={() => setActiveIndex(actualIndex)}
+                  className="group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#E4E5E9] bg-[#E4E5E9] p-6 text-left transition-transform duration-150 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
+                >
+                  <div className="relative h-44 overflow-hidden rounded-2xl bg-[#EDEEF3]">
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="mt-6 flex flex-1 flex-col justify-between">
+                    <div>
+                      <span className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                        {post.date}
+                      </span>
+                      <h3 className="mt-2 text-lg font-semibold uppercase tracking-[0.18em] text-slate-900">
+                        {post.title}
+                      </h3>
+                    </div>
+                    <span className="mt-4 inline-flex items-center text-xs font-semibold uppercase tracking-[0.28em] text-sky-600 transition-colors duration-150 group-hover:text-sky-700">
+                      View certificate
+                      <svg className="ml-2 h-4 w-4" viewBox="0 0 24 24" fill="none">
+                        <path
+                          d="M7 17 17 7M9.5 7H17v7.5"
+                          stroke="currentColor"
+                          strokeWidth="1.6"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+          {totalSlides > 1 && (
+            <>
               <button
                 type="button"
-                onClick={() => setActiveIndex(index)}
-                className="flex w-full cursor-pointer flex-col gap-3 text-left"
+                onClick={() => setCurrentSlide((prev) => Math.max(prev - 1, 0))}
+                disabled={currentSlide === 0}
+                className="absolute -left-12 top-1/2 -translate-y-1/2 rounded-full border border-slate-300 bg-white p-3 text-slate-600 shadow-sm transition hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                <div className="relative h-40 overflow-hidden rounded-2xl bg-[#EDEEF3]">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-                <span className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                  {post.date}
-                </span>
-                <span className="text-lg font-semibold uppercase tracking-[0.24em] text-slate-900 transition-colors duration-150 group-hover:text-sky-600">
-                  {post.title}
-                </span>
-                <span className="inline-flex items-center text-xs font-semibold uppercase tracking-[0.28em] text-sky-600 transition-colors duration-150 group-hover:text-sky-700">
-                  View certificate
-                  <svg className="ml-2 h-3.5 w-3.5" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M8 16 16 8M10.5 8H16v5.5"
-                      stroke="currentColor"
-                      strokeWidth="1.6"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none">
+                  <path d="m14 7-5 5 5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </button>
-            </li>
-          ))}
-        </ul>
+              <button
+                type="button"
+                onClick={() => setCurrentSlide((prev) => Math.min(prev + 1, totalSlides - 1))}
+                disabled={currentSlide === totalSlides - 1}
+                className="absolute -right-12 top-1/2 -translate-y-1/2 rounded-full border border-slate-300 bg-white p-3 text-slate-600 shadow-sm transition hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none">
+                  <path d="m10 7 5 5-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
       {/* Custom Lightbox */}

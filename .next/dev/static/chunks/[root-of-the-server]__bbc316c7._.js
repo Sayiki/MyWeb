@@ -1822,9 +1822,24 @@ function Blog() {
             title: "Intellectual Property – Symptosense Project",
             date: "Sept 2024",
             image: "/pictures/HKI.png"
+        },
+        {
+            title: "Intellectual Property – EduSkill Project",
+            date: "Agustus 2025",
+            image: "/pictures/HKI2.png"
+        },
+        {
+            title: "Bootcamp Data Analyst - SmartPath",
+            date: "Agustus 2025",
+            image: "/pictures/bootcampDA.jpeg"
         }
     ];
+    const ITEMS_PER_SLIDE = 3;
+    const totalSlides = Math.ceil(posts.length / ITEMS_PER_SLIDE);
+    const [currentSlide, setCurrentSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [activeIndex, setActiveIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const startIndex = currentSlide * ITEMS_PER_SLIDE;
+    const visiblePosts = posts.slice(startIndex, startIndex + ITEMS_PER_SLIDE);
     // Lightbox state
     const [zoom, setZoom] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(1);
     const [rotation, setRotation] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -2005,7 +2020,7 @@ function Blog() {
         className: "relative overflow-hidden px-6 pb-24 pt-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative mx-auto w-full max-w-4xl space-y-10 text-slate-800",
+                className: "relative mx-auto w-full max-w-6xl space-y-12 text-slate-800",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                         className: "space-y-3 text-center",
@@ -2015,7 +2030,7 @@ function Blog() {
                                 children: "Certified Learning"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 176,
+                                lineNumber: 192,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2023,7 +2038,7 @@ function Blog() {
                                 children: "Certifications"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 179,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2031,106 +2046,192 @@ function Blog() {
                                 children: "Credentials that reinforce my commitment to modern web development and backend expertise."
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 182,
+                                lineNumber: 198,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                        lineNumber: 175,
+                        lineNumber: 191,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "grid gap-6 md:grid-cols-2",
-                        children: posts.map((post, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "group cursor-pointer rounded-3xl border border-[#E4E5E9] bg-[#E4E5E9] p-6 transition-transform duration-150 hover:-translate-y-1",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    type: "button",
-                                    onClick: ()=>setActiveIndex(index),
-                                    className: "flex w-full cursor-pointer flex-col gap-3 text-left",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "relative h-40 overflow-hidden rounded-2xl bg-[#EDEEF3]",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: post.image,
-                                                alt: post.title,
-                                                className: "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid auto-rows-[360px] gap-8 sm:grid-cols-2 xl:grid-cols-3",
+                                children: visiblePosts.map((post, index)=>{
+                                    const actualIndex = startIndex + index;
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        type: "button",
+                                        onClick: ()=>setActiveIndex(actualIndex),
+                                        className: "group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#E4E5E9] bg-[#E4E5E9] p-6 text-left transition-transform duration-150 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "relative h-44 overflow-hidden rounded-2xl bg-[#EDEEF3]",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: post.image,
+                                                    alt: post.title,
+                                                    className: "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                    lineNumber: 214,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 198,
+                                                lineNumber: 213,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-6 flex flex-1 flex-col justify-between",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-xs uppercase tracking-[0.3em] text-slate-400",
+                                                                children: post.date
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                                lineNumber: 222,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "mt-2 text-lg font-semibold uppercase tracking-[0.18em] text-slate-900",
+                                                                children: post.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                                lineNumber: 225,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                        lineNumber: 221,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "mt-4 inline-flex items-center text-xs font-semibold uppercase tracking-[0.28em] text-sky-600 transition-colors duration-150 group-hover:text-sky-700",
+                                                        children: [
+                                                            "View certificate",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                                className: "ml-2 h-4 w-4",
+                                                                viewBox: "0 0 24 24",
+                                                                fill: "none",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    d: "M7 17 17 7M9.5 7H17v7.5",
+                                                                    stroke: "currentColor",
+                                                                    strokeWidth: "1.6",
+                                                                    strokeLinecap: "round",
+                                                                    strokeLinejoin: "round"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                                    lineNumber: 232,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                                lineNumber: 231,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                        lineNumber: 229,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                lineNumber: 220,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, actualIndex, true, {
+                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                        lineNumber: 207,
+                                        columnNumber: 17
+                                    }, this);
+                                })
+                            }, void 0, false, {
+                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                lineNumber: 203,
+                                columnNumber: 11
+                            }, this),
+                            totalSlides > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        type: "button",
+                                        onClick: ()=>setCurrentSlide((prev)=>Math.max(prev - 1, 0)),
+                                        disabled: currentSlide === 0,
+                                        className: "absolute -left-12 top-1/2 -translate-y-1/2 rounded-full border border-slate-300 bg-white p-3 text-slate-600 shadow-sm transition hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "h-5 w-5",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "m14 7-5 5 5 5",
+                                                stroke: "currentColor",
+                                                strokeWidth: "1.6",
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                lineNumber: 255,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 197,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-xs uppercase tracking-[0.3em] text-slate-400",
-                                            children: post.date
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 204,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-lg font-semibold uppercase tracking-[0.24em] text-slate-900 transition-colors duration-150 group-hover:text-sky-600",
-                                            children: post.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 207,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "inline-flex items-center text-xs font-semibold uppercase tracking-[0.28em] text-sky-600 transition-colors duration-150 group-hover:text-sky-700",
-                                            children: [
-                                                "View certificate",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    className: "ml-2 h-3.5 w-3.5",
-                                                    viewBox: "0 0 24 24",
-                                                    fill: "none",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M8 16 16 8M10.5 8H16v5.5",
-                                                        stroke: "currentColor",
-                                                        strokeWidth: "1.6",
-                                                        strokeLinecap: "round",
-                                                        strokeLinejoin: "round"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                        lineNumber: 213,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                    lineNumber: 212,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 210,
+                                            lineNumber: 254,
                                             columnNumber: 17
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                    lineNumber: 192,
-                                    columnNumber: 15
-                                }, this)
-                            }, index, false, {
-                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 188,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                        lineNumber: 248,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        type: "button",
+                                        onClick: ()=>setCurrentSlide((prev)=>Math.min(prev + 1, totalSlides - 1)),
+                                        disabled: currentSlide === totalSlides - 1,
+                                        className: "absolute -right-12 top-1/2 -translate-y-1/2 rounded-full border border-slate-300 bg-white p-3 text-slate-600 shadow-sm transition hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "h-5 w-5",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "m10 7 5 5-5 5",
+                                                stroke: "currentColor",
+                                                strokeWidth: "1.6",
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                                lineNumber: 265,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                            lineNumber: 264,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
+                                        lineNumber: 258,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                        lineNumber: 186,
+                        lineNumber: 202,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                lineNumber: 174,
+                lineNumber: 190,
                 columnNumber: 7
             }, this),
             isLightboxOpen && currentPost && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2142,7 +2243,7 @@ function Blog() {
                         onClick: closeLightbox
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                        lineNumber: 235,
+                        lineNumber: 280,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2167,17 +2268,17 @@ function Blog() {
                                                 d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 250,
+                                                lineNumber: 295,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 249,
+                                            lineNumber: 294,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 244,
+                                        lineNumber: 289,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2196,17 +2297,17 @@ function Blog() {
                                                 d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM7 10h6"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 259,
+                                                lineNumber: 304,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 258,
+                                            lineNumber: 303,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 253,
+                                        lineNumber: 298,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2225,17 +2326,17 @@ function Blog() {
                                                 d: "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 268,
+                                                lineNumber: 313,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 267,
+                                            lineNumber: 312,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 262,
+                                        lineNumber: 307,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2254,17 +2355,17 @@ function Blog() {
                                                 d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 322,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 276,
+                                            lineNumber: 321,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 271,
+                                        lineNumber: 316,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2283,17 +2384,17 @@ function Blog() {
                                                 d: "M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 286,
+                                                lineNumber: 331,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 285,
+                                            lineNumber: 330,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 325,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2312,23 +2413,23 @@ function Blog() {
                                                 d: "M6 18L18 6M6 6l12 12"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                                lineNumber: 295,
+                                                lineNumber: 340,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                            lineNumber: 294,
+                                            lineNumber: 339,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 289,
+                                        lineNumber: 334,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 243,
+                                lineNumber: 288,
                                 columnNumber: 13
                             }, this),
                             activeIndex > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2346,17 +2447,17 @@ function Blog() {
                                         d: "M15 19l-7-7 7-7"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 307,
+                                        lineNumber: 352,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                    lineNumber: 306,
+                                    lineNumber: 351,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 302,
+                                lineNumber: 347,
                                 columnNumber: 15
                             }, this),
                             activeIndex < posts.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2374,17 +2475,17 @@ function Blog() {
                                         d: "M9 5l7 7-7 7"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                        lineNumber: 317,
+                                        lineNumber: 362,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                    lineNumber: 316,
+                                    lineNumber: 361,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 312,
+                                lineNumber: 357,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2408,12 +2509,12 @@ function Blog() {
                                     draggable: false
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                    lineNumber: 335,
+                                    lineNumber: 380,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 323,
+                                lineNumber: 368,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2424,29 +2525,29 @@ function Blog() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                                lineNumber: 345,
+                                lineNumber: 390,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                        lineNumber: 241,
+                        lineNumber: 286,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-                lineNumber: 230,
+                lineNumber: 275,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/MyWeb/components/Blog.jsx",
-        lineNumber: 173,
+        lineNumber: 189,
         columnNumber: 5
     }, this);
 }
-_s(Blog, "wV1HarCTFQKYjD8GfJh6klkxWZQ=");
+_s(Blog, "5Q93RCLrCEXNdHpATg9tcLIvUfQ=");
 _c = Blog;
 var _c;
 __turbopack_context__.k.register(_c, "Blog");
@@ -3527,7 +3628,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 __turbopack_context__.s([
     "default",
-    ()=>App
+    ()=>Home
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/GitHub/MyWeb/node_modules/next/head.js [client] (ecmascript)");
@@ -3549,7 +3650,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb
 ;
 ;
 ;
-function App() {
+function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3664,9 +3765,9 @@ function App() {
         ]
     }, void 0, true);
 }
-_c = App;
+_c = Home;
 var _c;
-__turbopack_context__.k.register(_c, "App");
+__turbopack_context__.k.register(_c, "Home");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
