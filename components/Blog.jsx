@@ -13,6 +13,16 @@ export default function Blog() {
       date: "Sept 2024",
       image: "/pictures/HKI.png"
     },
+    {
+      title: "Intellectual Property – EduSkill Project",
+      date: "Agustus 2025",
+      image: "/pictures/HKI2.png"
+    },
+    {
+      title: "Bootcamp Data Analyst - SmartPath",
+      date: "Agustus 2025",
+      image: "/pictures/HKI2.png"
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
