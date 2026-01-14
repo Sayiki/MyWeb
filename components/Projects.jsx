@@ -19,6 +19,11 @@ export default function Projects() {
       {
         title: "MrGarage (University Project)",
         image: "/pictures/mrgarage.png"
+      },
+      {
+        title: "Premier Zone Database",
+        image: "/pictures/PZ.png",
+        link: "https://saiki.cloud" // Replace with your actual URL
       }
     ],
     []
@@ -203,6 +208,45 @@ export default function Projects() {
           <div className="grid auto-rows-[360px] gap-8 sm:grid-cols-2 xl:grid-cols-3">
             {visibleProjects.map((project, index) => {
               const actualIndex = startIndex + index;
+              
+              // If project has a link, render as anchor tag
+              if (project.link) {
+                return (
+                  <a
+                    key={project.title}
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#E4E5E9] bg-[#E4E5E9] p-6 text-left transition-transform duration-150 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
+                  >
+                    <div className="relative h-44 overflow-hidden rounded-2xl bg-[#EDEEF3]">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                    <div className="mt-6 flex flex-1 flex-col justify-between">
+                      <h3 className="text-lg font-semibold uppercase tracking-[0.18em] text-slate-900">
+                        {project.title}
+                      </h3>
+                      <span className="mt-4 inline-flex items-center text-xs font-semibold uppercase tracking-[0.28em] text-sky-600 transition-colors duration-150 group-hover:text-sky-700">
+                        Visit website
+                        <svg className="ml-2 h-4 w-4" viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M7 17 17 7M9.5 7H17v7.5"
+                            stroke="currentColor"
+                            strokeWidth="1.6"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                );
+              }
+              
               return (
                 <button
                   key={project.title}
