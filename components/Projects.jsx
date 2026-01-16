@@ -23,7 +23,12 @@ export default function Projects() {
       {
         title: "Premier Zone Database",
         image: "/pictures/PZ.png",
-        link: "https://saiki.cloud" // Replace with your actual URL
+        link: "https://saiki.cloud" 
+      },
+      {
+        title: "Keyboard Database (WIP)",
+        image: "",
+        link: "" 
       }
     ],
     []

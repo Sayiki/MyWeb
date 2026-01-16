@@ -1092,7 +1092,12 @@ function Projects() {
                 {
                     title: "Premier Zone Database",
                     image: "/pictures/PZ.png",
-                    link: "https://saiki.cloud" // Replace with your actual URL
+                    link: "https://saiki.cloud"
+                },
+                {
+                    title: "Keyboard Database (WIP)",
+                    image: "",
+                    link: ""
                 }
             ]
     }["Projects.useMemo[projects]"], []);
@@ -1293,7 +1298,7 @@ function Projects() {
                                 children: "Selected Work"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 197,
+                                lineNumber: 202,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1301,7 +1306,7 @@ function Projects() {
                                 children: "Projects"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 200,
+                                lineNumber: 205,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1309,13 +1314,13 @@ function Projects() {
                                 children: "A snapshot of recent builds covering education platforms, smart diagnostics, and real-time communication."
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 203,
+                                lineNumber: 208,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                        lineNumber: 196,
+                        lineNumber: 201,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1341,12 +1346,12 @@ function Projects() {
                                                         className: "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                        lineNumber: 223,
+                                                        lineNumber: 228,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 227,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1357,7 +1362,7 @@ function Projects() {
                                                             children: project.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 235,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1376,30 +1381,30 @@ function Projects() {
                                                                         strokeLinejoin: "round"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                                        lineNumber: 236,
+                                                                        lineNumber: 241,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                                    lineNumber: 235,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 238,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 234,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, project.title, true, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 215,
+                                            lineNumber: 220,
                                             columnNumber: 19
                                         }, this);
                                     }
@@ -1416,12 +1421,12 @@ function Projects() {
                                                     className: "h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                    lineNumber: 258,
+                                                    lineNumber: 263,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 257,
+                                                lineNumber: 262,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1432,7 +1437,7 @@ function Projects() {
                                                         children: project.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                        lineNumber: 265,
+                                                        lineNumber: 270,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1451,36 +1456,36 @@ function Projects() {
                                                                     strokeLinejoin: "round"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                                    lineNumber: 271,
+                                                                    lineNumber: 276,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                                lineNumber: 270,
+                                                                lineNumber: 275,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                        lineNumber: 268,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 264,
+                                                lineNumber: 269,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, project.title, true, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 251,
+                                        lineNumber: 256,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 208,
+                                lineNumber: 213,
                                 columnNumber: 11
                             }, this),
                             totalSlides > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1502,17 +1507,17 @@ function Projects() {
                                                 strokeLinejoin: "round"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 294,
+                                                lineNumber: 299,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 293,
+                                            lineNumber: 298,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 287,
+                                        lineNumber: 292,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1532,17 +1537,17 @@ function Projects() {
                                                 strokeLinejoin: "round"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 304,
+                                                lineNumber: 309,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 303,
+                                            lineNumber: 308,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 302,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -1550,13 +1555,13 @@ function Projects() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                        lineNumber: 207,
+                        lineNumber: 212,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                lineNumber: 195,
+                lineNumber: 200,
                 columnNumber: 7
             }, this),
             isLightboxOpen && currentProject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1568,7 +1573,7 @@ function Projects() {
                         onClick: closeLightbox
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                        lineNumber: 319,
+                        lineNumber: 324,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1593,17 +1598,17 @@ function Projects() {
                                                 d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 334,
+                                                lineNumber: 339,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 333,
+                                            lineNumber: 338,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 328,
+                                        lineNumber: 333,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1622,17 +1627,17 @@ function Projects() {
                                                 d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM7 10h6"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 343,
+                                                lineNumber: 348,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 342,
+                                            lineNumber: 347,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 337,
+                                        lineNumber: 342,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1651,17 +1656,17 @@ function Projects() {
                                                 d: "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 352,
+                                                lineNumber: 357,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 351,
+                                            lineNumber: 356,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 346,
+                                        lineNumber: 351,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1680,17 +1685,17 @@ function Projects() {
                                                 d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 361,
+                                                lineNumber: 366,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 360,
+                                            lineNumber: 365,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 355,
+                                        lineNumber: 360,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1709,17 +1714,17 @@ function Projects() {
                                                 d: "M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 370,
+                                                lineNumber: 375,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 369,
+                                            lineNumber: 374,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 364,
+                                        lineNumber: 369,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1738,23 +1743,23 @@ function Projects() {
                                                 d: "M6 18L18 6M6 6l12 12"
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                                lineNumber: 379,
+                                                lineNumber: 384,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                            lineNumber: 378,
+                                            lineNumber: 383,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 373,
+                                        lineNumber: 378,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 327,
+                                lineNumber: 332,
                                 columnNumber: 13
                             }, this),
                             activeProjectIndex > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1772,17 +1777,17 @@ function Projects() {
                                         d: "M15 19l-7-7 7-7"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 391,
+                                        lineNumber: 396,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                    lineNumber: 390,
+                                    lineNumber: 395,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 386,
+                                lineNumber: 391,
                                 columnNumber: 15
                             }, this),
                             activeProjectIndex < projects.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1800,17 +1805,17 @@ function Projects() {
                                         d: "M9 5l7 7-7 7"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                        lineNumber: 401,
+                                        lineNumber: 406,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                    lineNumber: 400,
+                                    lineNumber: 405,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 396,
+                                lineNumber: 401,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1834,12 +1839,12 @@ function Projects() {
                                     draggable: false
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                    lineNumber: 419,
+                                    lineNumber: 424,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 407,
+                                lineNumber: 412,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$MyWeb$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1850,25 +1855,25 @@ function Projects() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                                lineNumber: 429,
+                                lineNumber: 434,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                        lineNumber: 325,
+                        lineNumber: 330,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-                lineNumber: 314,
+                lineNumber: 319,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/MyWeb/components/Projects.jsx",
-        lineNumber: 194,
+        lineNumber: 199,
         columnNumber: 5
     }, this);
 }
