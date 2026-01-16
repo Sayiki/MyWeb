@@ -35,6 +35,12 @@ const icons = {
   Postman: (
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" className="h-8 w-8" />
   ),
+  "Spring Boot": (
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" className="h-8 w-8" />
+  ),
+  PostgreSQL: (
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="h-8 w-8" />
+  ),
 };
 
 const skills = [
@@ -49,6 +55,8 @@ const skills = [
   { name: "Tailwind", level: "Advanced", proficiency: 4 },
   { name: "Bootstrap", level: "Advanced", proficiency: 4 },
   { name: "Postman", level: "Advanced", proficiency: 4 },
+  { name: "Spring Boot", level: "Intermediate", proficiency: 3 },
+  { name: "PostgreSQL", level: "Intermediate", proficiency: 3 },
 ];
 
 export default function Skills() {

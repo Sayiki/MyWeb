@@ -2691,6 +2691,24 @@ const icons = {
         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
         lineNumber: 36,
         columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)),
+    "Spring Boot": /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+        alt: "Spring Boot",
+        className: "h-8 w-8"
+    }, void 0, false, {
+        fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
+        lineNumber: 39,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)),
+    PostgreSQL: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        alt: "PostgreSQL",
+        className: "h-8 w-8"
+    }, void 0, false, {
+        fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
+        lineNumber: 42,
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0))
 };
 const skills = [
@@ -2748,6 +2766,16 @@ const skills = [
         name: "Postman",
         level: "Advanced",
         proficiency: 4
+    },
+    {
+        name: "Spring Boot",
+        level: "Intermediate",
+        proficiency: 3
+    },
+    {
+        name: "PostgreSQL",
+        level: "Intermediate",
+        proficiency: 3
     }
 ];
 function Skills() {
@@ -2799,7 +2827,7 @@ function Skills() {
                             children: "Core Toolkit"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 95,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -2807,7 +2835,7 @@ function Skills() {
                             children: "Technology Stack"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 98,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2815,13 +2843,13 @@ function Skills() {
                             children: "Tools and technologies I work with daily"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 101,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                    lineNumber: 94,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2856,7 +2884,7 @@ function Skills() {
                                                             children: icons[skill.name]
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                            lineNumber: 139,
+                                                            lineNumber: 147,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2864,13 +2892,13 @@ function Skills() {
                                                             children: skill.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                            lineNumber: 140,
+                                                            lineNumber: 148,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 146,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2878,7 +2906,7 @@ function Skills() {
                                                     children: skill.level
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 142,
+                                                    lineNumber: 150,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2889,7 +2917,7 @@ function Skills() {
                                                             children: "Proficiency Level"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 154,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2903,7 +2931,7 @@ function Skills() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                                    lineNumber: 148,
+                                                                    lineNumber: 156,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2915,37 +2943,37 @@ function Skills() {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                                        lineNumber: 150,
+                                                                        lineNumber: 158,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                                    lineNumber: 149,
+                                                                    lineNumber: 157,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 155,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 145,
+                                                    lineNumber: 153,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "absolute left-1/2 top-full -translate-x-1/2 border-8 border-transparent border-t-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 166,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                            lineNumber: 131,
+                                            lineNumber: 139,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2956,7 +2984,7 @@ function Skills() {
                                                     children: icons[skill.name]
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 171,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2964,34 +2992,34 @@ function Skills() {
                                                     children: skill.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 172,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                            lineNumber: 162,
+                                            lineNumber: 170,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, `${skill.name}-${index}`, true, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                    lineNumber: 124,
+                                    lineNumber: 132,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 118,
+                            lineNumber: 126,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                        lineNumber: 109,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                    lineNumber: 107,
+                    lineNumber: 115,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3015,17 +3043,17 @@ function Skills() {
                                             strokeLinejoin: "round"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                            lineNumber: 183,
+                                            lineNumber: 191,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                        lineNumber: 182,
+                                        lineNumber: 190,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                    lineNumber: 178,
+                                    lineNumber: 186,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3041,12 +3069,12 @@ function Skills() {
                                                     d: "M8 5v14l11-7z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 202,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                lineNumber: 193,
+                                                lineNumber: 201,
                                                 columnNumber: 19
                                             }, this),
                                             "Play"
@@ -3061,12 +3089,12 @@ function Skills() {
                                                     d: "M6 4h4v16H6zm8 0h4v16h-4z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 209,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                                lineNumber: 200,
+                                                lineNumber: 208,
                                                 columnNumber: 19
                                             }, this),
                                             "Pause"
@@ -3074,7 +3102,7 @@ function Skills() {
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                    lineNumber: 187,
+                                    lineNumber: 195,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3092,23 +3120,23 @@ function Skills() {
                                             strokeLinejoin: "round"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                            lineNumber: 214,
+                                            lineNumber: 222,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                        lineNumber: 213,
+                                        lineNumber: 221,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                                    lineNumber: 209,
+                                    lineNumber: 217,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 176,
+                            lineNumber: 184,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3116,24 +3144,24 @@ function Skills() {
                             children: "Hover to pause • Use arrows to navigate"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                            lineNumber: 218,
+                            lineNumber: 226,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-                    lineNumber: 175,
+                    lineNumber: 183,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-            lineNumber: 93,
+            lineNumber: 101,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Documents/GitHub/MyWeb/components/Skills.jsx",
-        lineNumber: 92,
+        lineNumber: 100,
         columnNumber: 5
     }, this);
 }
